@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2, h3, h4 {
+    font-family: monospace;
+    color: rgb(238, 204, 32);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.logoMain {
+    border: solid green;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.titleContainer {
+    width: 50%;
+    margin-left: 320px;
+}
+.mainImg {
+    height: 100%;
+    margin-left: 120px;
+}
+
+.nav {
+    border: solid pink;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navProfile {
+    border: solid yellow;
+    width: 33%;
+    height: 80%;
+    display: flex;
+}
+
+.navIcon {
+ border: solid purple;
+ width: 50%;
+}
+.navText {
+    width:45%;
+}
+
+.worldContainer {
+    border: solid rgb(255, 251, 0);
+   height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.worldRow {
+    border: solid green;
+    width: 100%;
+    height: 450px ;
+    display: flex;
+}
+
+.worldProfile {
+    margin-left: 0;
+   border: solid blue;
+    height: 400px;
+    width: 400px
+}
+.worldPic {
+    border: solid pink;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.worldText {
+    border: solid green ;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+}
+.worldImg {
+margin-left: 5px;
+width: 400px;
+}
+.charContainer {
+    border: solid green;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.charProfile {
+    border: solid blue;
+    height: 400px;
+    width: 250px
+}
+.charPic {
+    border: solid pink;
+    width: 300px%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.charTxt {
+    border: solid green ;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+}
+.charImg {
+    width: 300px;
+}
+.footer {
+    border: solid green;
+    width: 100%;
+    height: 200px;
+}
