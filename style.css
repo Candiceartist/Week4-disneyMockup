@@ -10,6 +10,7 @@ h1, h2, h3, h4 {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    font-size: small;
 }
 .logoMain {
     border: solid green;
@@ -34,93 +35,133 @@ p {
     justify-content: space-evenly;
 }
 .navProfile {
-    border: solid yellow;
+    /* border: solid yellow; */
     width: 33%;
     height: 80%;
     display: flex;
 }
 
 .navIcon {
- border: solid purple;
+ /* border: solid purple; */
  width: 50%;
 }
 .navText {
     width:45%;
 }
 
-.worldContainer {
-    border: solid rgb(255, 251, 0);
-   height: 1000px;
+/* main container */
+.mainContainer {
+    border: solid green 1px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.worldRow {
-    border: solid green;
-    width: 100%;
-    height: 450px ;
-    display: flex;
+.worldBox {
+    border: solid yellow 1px;
+    width: 15%;
+    margin-right: 35%;
 }
-
-.worldProfile {
-    margin-left: 0;
-   border: solid blue;
-    height: 400px;
-    width: 400px
-}
-.worldPic {
-    border: solid pink;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-}
-
-
-.worldText {
-    border: solid green ;
-    text-align: center;
-    width: 100%;
-    height: 55px;
-}
-.worldImg {
-margin-left: 5px;
-width: 400px;
-}
-.charContainer {
-    border: solid green;
-    margin-top: 100px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.charProfile {
-    border: solid blue;
-    height: 400px;
-    width: 250px
-}
-.charPic {
-    border: solid pink;
-    width: 300px%;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-}
-.charTxt {
-    border: solid green ;
-    width: 100%;
-    height: 55px;
-    text-align: center;
-}
-.charImg {
-    width: 300px;
-}
-.footer {
-    border: solid green;
+.wProfile {
+    /* border: solid blue 2px; */
     width: 100%;
     height: 200px;
+}
+.picFrame {
+    border: solid orange 1px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+.worldImg {
+    /* border: solid salmon 1px; */
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+.worldName {
+    /* border: solid purple 2px; */
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+}
+.nameButton2 {
+    border: solid blue 1px;
+    height: 36px;
+    width: 98%;
+    color: lightskyblue;
+    background-color: black;
+    font-size: medium;
+    border-radius: 5px;
+}
+.nameButton2:hover {
+    background-color: rgb(27, 29, 116);
+}
+.displayBox {
+    /* border: solid purple   1px; */
+    width: 30%;
+    margin-right: 35%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    position: fixed;
+}
+.displayCharacter {
+    border: solid pink 1px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.profile {
+    border: solid orange 1px;
+    width: 175px;
+    height: 200px;
+}
+
+.profile2 {
+    /* border: solid orange 2px; */
+    width: 175px;
+    height: 150px;
+    overflow: hidden;
+}
+.charPic {
+    /* border: solid salmon 1px; */
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.name {
+    /* border: solid purple 2px; */
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+} 
+.nameButton {
+    border: solid purple 1px;
+    height: 30px;
+    width: 98%;
+    color: lightskyblue;
+    background-color: black;
+    font-size: medium;
+    border-radius: 5px;
+}
+.nameButton:hover {
+    background-color: blueviolet;
+}
+.displayText1 {
+    width: 90%;
+    height: 450px;
+    align-self: center;
+    padding-top: 125px;
+    padding-left: 15px;
+    color: lightblue;
+    margin-left: 20px;
+}
+.charPic4 {
+    /* border: solid salmon 1px; */
+    width: 100%;
+    height: auto;  
+}
+.charPic4:hover {
+    transition: 1s;
 }
